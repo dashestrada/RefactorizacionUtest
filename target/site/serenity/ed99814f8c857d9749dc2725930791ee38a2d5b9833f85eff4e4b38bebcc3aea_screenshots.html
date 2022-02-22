@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">demo project using serenity and cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0739f903479430431164101f76a012be73fea6ad3639aead33100387cdc90b80.html">Register Successful User  Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="ed99814f8c857d9749dc2725930791ee38a2d5b9833f85eff4e4b38bebcc3aea.html">Register successful </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-02-2022 01:19</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register Successful User  Utest Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                as a user, i want register in the Utest page
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e0e727b5b6644c8f3cb483e99b843c02eb2334fec16c0b22bee3f4c672b65ca7.html">Scenario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register successful
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1d7f9682dd86e4c5d2364301257d2c4d93d578d1201477cc3329c4525d6d2472.png" title=" Given the Dayana wants to enter the Utest page" width="1366"/>
+                <img src="1d7f9682dd86e4c5d2364301257d2c4d93d578d1201477cc3329c4525d6d2472.png" title=" Dayana open up" width="1366"/>
+                <img src="1d7f9682dd86e4c5d2364301257d2c4d93d578d1201477cc3329c4525d6d2472.png" title=" Dayana opens the Open home page" width="1366"/>
+                <img src="1d7f9682dd86e4c5d2364301257d2c4d93d578d1201477cc3329c4525d6d2472.png" title=" Dayana open up (completed)" width="1366"/>
+                <img src="ae5c827672b6b140b41859f5c37d8ba0eb86dd738634c8f448a753d093e5f691.png" title=" Dayana join today" width="1366"/>
+                <img src="ae5c827672b6b140b41859f5c37d8ba0eb86dd738634c8f448a753d093e5f691.png" title=" Dayana clicks on Click on the button join today" width="1366"/>
+                <img src="ae5c827672b6b140b41859f5c37d8ba0eb86dd738634c8f448a753d093e5f691.png" title=" Dayana join today (completed)" width="1366"/>
+                <img src="ae5c827672b6b140b41859f5c37d8ba0eb86dd738634c8f448a753d093e5f691.png" title=" Given the Dayana wants to enter the Utest page (completed)" width="1366"/>
+                <img src="3ac22df1227d24df99fa2594d96420c7c3158b4b855f7f1baa20a0a50f37a19a.png" title=" When she performs the registration of your personal data
+| strName | strLastname | strEmail | strBirthMonth | strBirthday | strBirthYear | strCity | strPostalCode | strCountry | strComputer | strVersionComputer | strLanguaje | strMovilDevices | strModelDevicesModel | strSoMovil | strPassword |
+| Dayana | Estrada | dasjhgdkg456j@test.com | June | 21 | 1999 | Monteria | 123456 | Colombia | Windows | 10 | Spanish | Xiaomi | Redmi Note 8 Pro | Android 9 | Dayana99-123 |" width="1366"/>
+                <img src="3ac22df1227d24df99fa2594d96420c7c3158b4b855f7f1baa20a0a50f37a19a.png" title=" Dayana enter personal data" width="1366"/>
+                <img src="3ac22df1227d24df99fa2594d96420c7c3158b4b855f7f1baa20a0a50f37a19a.png" title=" Dayana enters 'Dayana' into Campo para Nombre del usuario" width="1366"/>
+                <img src="722787b958e3cb7dd5dc7e82a4bca3b8f7bdcb6ea57d52d17e012818415ea89c.png" title=" Dayana enters 'Estrada' into Campo para el Apellido del usuario" width="1366"/>
+                <img src="65e11e753f02bbdb5d397027081d0fb6f3c49ec3f57931625b4b451001cd9ec7.png" title=" Dayana enters 'dasjhgdkg456j@test.com' into Campo para el correo del usuario" width="1366"/>
+                <img src="a69987babb27844252934d4d0ea89d12351f2eea69f398fb564e1fab12e8d6d5.png" title=" Dayana select June on Campo para mes de nacimiento de usuario" width="1366"/>
+                <img src="7e6a07aed3537d9aadd33c84b0524617465f2bf337675ca7593dd3fb39e3c15e.png" title=" Dayana select 21 on Campo para dia de nacimiento de usuario" width="1366"/>
+                <img src="5f140d956237abe512b93b12556153f9aae200206ccc912f451f000ea724e8c8.png" title=" Dayana select 1999 on Campo para a&Atilde;&plusmn;o de nacimiento de usuario" width="1366"/>
+                <img src="68403cd3c04f95451165d38b825feec7268abc16f197f54cf9c50a44543727f8.png" title=" Dayana clicks on Bot&Atilde;&sup3;n para ir a Location" width="1366"/>
+                <img src="68403cd3c04f95451165d38b825feec7268abc16f197f54cf9c50a44543727f8.png" title=" Dayana enter personal data (completed)" width="1366"/>
+                <img src="9e62289b3c6b05e2f7fd055a94c04e8af083906c561ab2ea128eead013ca9035.png" title=" Dayana enter location data" width="1366"/>
+                <img src="9e62289b3c6b05e2f7fd055a94c04e8af083906c561ab2ea128eead013ca9035.png" title=" Dayana enters 'Monteria' into Campo para Ciudad del usuario" width="1366"/>
+                <img src="4ae63918cc207b855494296383ef43daf5f8f55c4fe1987461f6336f38cf2ce0.png" title=" Dayana types 'ARROW_DOWN' in Campo para Ciudad del usuario" width="1366"/>
+                <img src="acdd4cd3c660daf4ac96eeabac29254ac8ebf709588be002558056f4c3183f8f.png" title=" Dayana types 'ENTER' in Campo para Ciudad del usuario" width="1366"/>
+                <img src="150db001342792a4a798a314322858e3eed894c6a83d86550b5cb38aec6ad010.png" title=" Dayana enters '123456' into Campo para C&Atilde;&sup3;digo postal del usuario" width="1366"/>
+                <img src="fdc31adcfcd3ffbdcce8c4c149dc3db2d05179f4200a033364f649db1a74e50a.png" title=" Dayana clicks on Contenedor de los paises" width="1366"/>
+                <img src="7bd150fc4a7c998d85c4f19ec3d1d0f06d27ed1e649a5300f794494bca835df5.png" title=" Dayana enters 'Colombia' into Campo para el Pa&Atilde;&shy;s del usuario" width="1366"/>
+                <img src="1928a0fc26271f3e94d380f3090c5a6399de69f5d6be561778ecb651d1f783bc.png" title=" Dayana clicks on Bot&Atilde;&sup3;n para ir a Devices" width="1366"/>
+                <img src="1928a0fc26271f3e94d380f3090c5a6399de69f5d6be561778ecb651d1f783bc.png" title=" Dayana enter location data (completed)" width="1366"/>
+                <img src="5760a8499d0eb1eca52e716971d5a67f5ba2922be895e7f2c8b7d948b0b00ad8.png" title=" Dayana enter devices" width="1366"/>
+                <img src="5760a8499d0eb1eca52e716971d5a67f5ba2922be895e7f2c8b7d948b0b00ad8.png" title=" Dayana clicks on Contenedor para Computador" width="1366"/>
+                <img src="a32188c549cff1ea7b470cac9eaea321ed1da92af42e04dc481ebfdde660c8bb.png" title=" Dayana enters 'Windows' then hits ARROW_DOWN and ENTER into Campo para Computador" width="1366"/>
+                <img src="1ccb3c5e412de6657cc6fc6c56c69282c612d1c1c835f401b2273a8d76291ced.png" title=" Dayana clicks on Contenedor para Versi&Atilde;&sup3;n" width="1366"/>
+                <img src="da38e5c611dc21bdd0620bceee93a01ca77989cd5d16f10ee692428a612ebd59.png" title=" Dayana enters '10' then hits ARROW_DOWN and ENTER into Campo para Versi&Atilde;&sup3;n" width="1366"/>
+                <img src="eecd45ba398e5db735d8aaf5284c8d2f76fe6b90f65ed8dac93858f8b695fb19.png" title=" Dayana clicks on Contenedor para Lenguaje" width="1366"/>
+                <img src="169956938439c44409ae67c37114598874f36a73e3b038381aac771659eff6a2.png" title=" Dayana enters 'Spanish' then hits ARROW_DOWN and ENTER into Campo para Lenguaje" width="1366"/>
+                <img src="a801c51c5c863910d33428b519c655dab5e0bafbbc3935c3c6b5bd1b9b057fc5.png" title=" Dayana clicks on Contenedor para Dispositivos M&Atilde;&sup3;vil" width="1366"/>
+                <img src="0316d2f008ff7b8d5fd40e4735cbdcf5f7069f6ffb1ea85a84ff635aaa4e9e10.png" title=" Dayana enters 'Xiaomi' then hits ARROW_DOWN and ENTER into Campo para dispositivo M&Atilde;&sup3;vil" width="1366"/>
+                <img src="2d1684c923cb19fff202f505d8c2208d9631945d8e82f0ef270c5d4818fcd463.png" title=" Dayana clicks on Contenedor para modelo del dispositivo M&Atilde;&sup3;vil" width="1366"/>
+                <img src="cb868c1d7a13323dc4e420114aa3bfb3dad85e2d7ae0ac3008f9c86bc5cf0854.png" title=" Dayana enters 'Redmi Note 8 Pro' then hits [ENTER] into Campo para el m&Atilde;&sup3;delo del dispositivo m&Atilde;&sup3;vil" width="1366"/>
+                <img src="cefe81be1159dd7396c2619846a1d92a2a997e9b3a0371a863e81a54dad61055.png" title=" Dayana clicks on Contenedor para el SO del dispositivo M&Atilde;&sup3;vil" width="1366"/>
+                <img src="67130ccc5e77992aaee97e94203e3679cfeaad2fa1cace85730c4b1763841f9c.png" title=" Dayana enters 'Android 9' then hits [ENTER] into Campo para el SO del dispositivo m&Atilde;&sup3;vil" width="1366"/>
+                <img src="7b753930402d3701712f43672220db7885f00bcc5fc5c78b8ee7e64eaa61870f.png" title=" Dayana clicks on Bot&Atilde;&sup3;n para finalizar" width="1366"/>
+                <img src="7b753930402d3701712f43672220db7885f00bcc5fc5c78b8ee7e64eaa61870f.png" title=" Dayana enter devices (completed)" width="1366"/>
+                <img src="b03ea760141c7524def7c4c5b5e9c20707f87279ba1aa09023e1b065d0257459.png" title=" Dayana enter final data" width="1366"/>
+                <img src="b03ea760141c7524def7c4c5b5e9c20707f87279ba1aa09023e1b065d0257459.png" title=" Dayana enters 'Dayana99-123' into Campo para ingresar la Contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="fd04b3751c6e5fefb6c26cf0447f71516cc73baba56d917ddd53c6ce817cdcd3.png" title=" Dayana enters 'Dayana99-123' into Campo para Confirmar la Contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="dc48e9ec91fcaca7ee448c0d0c9b971bb8a04a11b024afeb6bbe0ec4985cc2d5.png" title=" Dayana clicks on Checkbox para mantenerse informado" width="1366"/>
+                <img src="380fa156bde63662479648fffa5f6450ca44d7d9727b5536ba20a1b8c7cf9d73.png" title=" Dayana clicks on Checkbox para terminos de uso de Utest" width="1366"/>
+                <img src="7214c11a19d7107e1582ddb1b4f1ff5d5a32e0d2b9434935aed0c6cec4ef6d14.png" title=" Dayana clicks on Checkbox para  Privacidad" width="1366"/>
+                <img src="503a1f270fe99a64514696068fa903d2f30324916715bf5baa1ab8638593e805.png" title=" Dayana clicks on Bot&Atilde;&sup3;n para  Completar" width="1366"/>
+                <img src="503a1f270fe99a64514696068fa903d2f30324916715bf5baa1ab8638593e805.png" title=" Dayana enter final data (completed)" width="1366"/>
+                <img src="503a1f270fe99a64514696068fa903d2f30324916715bf5baa1ab8638593e805.png" title=" When she performs the registration of your personal data
+| strName | strLastname | strEmail | strBirthMonth | strBirthday | strBirthYear | strCity | strPostalCode | strCountry | strComputer | strVersionComputer | strLanguaje | strMovilDevices | strModelDevicesModel | strSoMovil | strPassword |
+| Dayana | Estrada | dasjhgdkg456j@test.com | June | 21 | 1999 | Monteria | 123456 | Colombia | Windows | 10 | Spanish | Xiaomi | Redmi Note 8 Pro | Android 9 | Dayana99-123 | (completed)" width="1366"/>
+                <img src="52326986ec2ecb570fdbe955215d5e341b0c6cbab0daabae9d9e2f5d61319ea4.png" title=" Then she has successfully registered
+| strFinalText |
+| Complete Setup |" width="1366"/>
+                <img src="52326986ec2ecb570fdbe955215d5e341b0c6cbab0daabae9d9e2f5d61319ea4.png" title=" Then answer" width="1366"/>
+                <img src="52326986ec2ecb570fdbe955215d5e341b0c6cbab0daabae9d9e2f5d61319ea4.png" title=" Then she has successfully registered
+| strFinalText |
+| Complete Setup | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
